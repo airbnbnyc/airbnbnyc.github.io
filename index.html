@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Denis Samardjiev" />
+	<meta name="description" content="LightningBolt - A minimal HTML5 theme">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<title>AirbnbNY | A community taking action</title>
+
+	<!-- Stylesheets -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7cOpen+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- jQuery Files -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+	<link href='css/ionicons.min.css' rel='stylesheet' type='text/css'>
+	<style>
+
+	</style>
+</head>
+<body class="royal_loader" data-spy="scroll" data-target="#myScrollSpy" data-offset="100">
+
+	<!-- Begin Hero -->
+	<div class="jumbotron hero clearfix" data-top-bottom="background-position: 50% -200px;" data-bottom-top="background-position: 50% 100px;">
+
+		<!-- Content -->
+		<div class="container center-vertically">
+			<p><img class="img-responsive center-block airbnb" src="img/airbnb.png"></p>
+<h1>New York</h1>
+			<hr>
+			<p>We're launching a major initiative to help ensure city and state leaders know how home-sharing makes New York neighborhoods better. This plan won’t succeed without you. We need every New Yorker in our community to speak out. Sign up now and we'll be in touch shortly</p>
+
+			   <div class="alert alert-success" id="successMessage" style="display:none;">
+					  Thanks for signing up!
+				</div>
+                <form class="form-inline" role="form" action="http://spearhead.createsend.com/t/d/s/wyudh/" method="post" id="subForm">
+				  <div class="form-group">
+				    <label for="fieldEmail" class="sr-only">Email</label>
+				    <input id="fieldEmail" name="cm-wyudh-wyudh" type="email" class="form-control" placeholder="Email address" required />
+				  </div>
+					  <div class="form-group">
+					    <label for="fieldxwky" class="sr-only">ZIP</label>
+					    <input type="text" name="cm-f-xwky" class="form-control" id="fieldxwky" placeholder="ZIP Code" required />
+					  </div>
+					  <button type="submit" class="btn btn-default bolt-button-light scroll-link" style="margin-top:0;">I'm In &nbsp;&nbsp;<span class="ion-ios7-arrow-right"></span></button>
+					</form>
+		</div>
+	</div>
+	<!-- End Hero -->
+
+	<!-- Begin Summary -->
+
+	<!-- End Footer -->
+
+	<!-- Javascript Files -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript" src="js/modal-fix.js"></script>
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/start-skrollr.js"></script>
+	<script type="text/javascript" src="js/scrollReveal.js"></script>
+	<script type="text/javascript">
+		window.scrollReveal = new scrollReveal();
+		//activate scrollReveal.js
+	</script>
+
+<script type="text/javascript">
+    $(function () {
+        $('#subForm').submit(function (e) {
+            e.preventDefault();
+            $.getJSON(
+                this.action + "?callback=?",
+                $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        alert("Error: " + data.Message);
+                    } else { // 200
+                        // #subForm picks the element which has
+                        // an id of subForm (ie our form), and
+                        // then we slide it up, over 400 milliseconds.
+                        $('#subForm').slideUp(400, function() {
+                            // #successMessage picks out the div that
+                            // contains the success message so that we
+                            // can animate it
+                            $('#successMessage').slideDown();
+                        });
+                }
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>
