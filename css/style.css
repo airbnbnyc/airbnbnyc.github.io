@@ -264,7 +264,7 @@ ul.nav a:hover {
 .hero {
 	width: 100%;
 	color: #fff;
-	background-image: url(../img/slider/slide2-3.jpg);
+	background-image: url(../img/slider/slide2-2.jpg);
 	margin: 0;
 	display: table;
 	height: 100%;
@@ -810,9 +810,9 @@ textarea.form-control {
 =            CUSTOM BY NICK            =
 ======================================*/
 .jumbotron p, h1 {
-	-moz-text-shadow: 0px 2px 0px rgba(2, 2, 2, 0.05);
-	-webkit-text-shadow: 0px 2px 0px rgba(2, 2, 2, 0.05);
-	text-shadow: 0px 2px 0px rgba(2, 2, 2, 0.05);
+	-moz-text-shadow: 0px 2px 0px rgba(2, 2, 2, 0.15);
+	-webkit-text-shadow: 0px 2px 0px rgba(2, 2, 2, 0.15);
+	text-shadow: 0px 2px 0px rgba(2, 2, 2, 0.15);
 	letter-spacing: 0.03em;
 }
 .form-inline input {
