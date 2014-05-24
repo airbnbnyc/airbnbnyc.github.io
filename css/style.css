@@ -468,6 +468,15 @@ span.portfolio-hover span {
 	box-shadow: none;
 }
 
+.modal-content a {
+	color: #00E5EE;
+}
+
+.modal-content a:hover {
+	color: #00E5EE;
+	text-decoration: none;
+}
+
 .modal button.close {
 	padding: 5px 5px 5px 5px;
 	box-shadow: none;
