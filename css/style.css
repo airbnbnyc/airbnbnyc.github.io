@@ -45,12 +45,12 @@ textarea {
 }
 
 body a {
-	color: #969696;
+	color: #fff;
+	text-decoration: underline;
 }
 
 body a:hover {
-	color: #000;
-	text-decoration: none;
+	color: #fff;
 	-webkit-transition: color 0.5s ease;
 	-moz-transition: color 0.5s ease;
 	-o-transition: color 0.5s ease;
@@ -468,19 +468,25 @@ span.portfolio-hover span {
 	box-shadow: none;
 }
 
+.modal-content a {
+	color: #00E5EE;
+}
+
+.modal-content a:hover {
+	color: #00E5EE;
+	text-decoration: none;
+}
+
 .modal button.close {
-	border: 2px solid #272727;
 	padding: 5px 5px 5px 5px;
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	display: inline-block;
 	float: none;
-	margin: 45px 0 20px 0;
 }
 
 .modal button.close:hover {
 	background-color: #272727;
-	border: 2px solid #272727;
 	opacity: 1;
 	color: #fff;
 	box-shadow: none;
