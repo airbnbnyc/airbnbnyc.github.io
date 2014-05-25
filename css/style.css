@@ -292,6 +292,10 @@ ul.nav a:hover {
     background: #fff;
 }
 
+.airbnb {
+	max-width: 360px;
+}
+
 /* =Page Title
 -------------------------------------------------------------- */
 .page-title-2 {
