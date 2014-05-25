@@ -23,7 +23,7 @@ Author: Denis Samardjiev
 	=Contact
 	=Footer
 	=Media Queries
-*/
+	*/
 
 /* =Common Styles
 -------------------------------------------------------------- */
@@ -214,20 +214,20 @@ ul.nav a:hover {
 }
 
 .nav li.active a {
-    color: #fff;
+	color: #fff;
 }
 
 .navbar .nav li.active:after {
-    content: "\f1ac";
-    font-family: Ionicons;
-    font-size: 32px;
-    text-align: center;
-    color: #fff;
+	content: "\f1ac";
+	font-family: Ionicons;
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
 }
 
 .navbar-nav li a {
-    line-height: 100px;
-    padding-top: 0;
+	line-height: 100px;
+	padding-top: 0;
 }
 
 .navbar-collapse {
@@ -265,6 +265,8 @@ ul.nav a:hover {
 	width: 100%;
 	color: #fff;
 	background-image: url(../img/slider/slide2-2.jpg);
+	background-repeat: no-repeat;
+	background-position: right 30px center;
 	margin: 0;
 	display: table;
 	height: 100%;
@@ -288,8 +290,8 @@ ul.nav a:hover {
 }
 
 .hero hr {
-    color: #fff;
-    background: #fff;
+	color: #fff;
+	background: #fff;
 }
 
 .airbnb {
@@ -311,12 +313,12 @@ ul.nav a:hover {
 }
 
 hr {
-    height: 3px;
-    width: 50px;
-    color: #d8d8d8;
-    background: #d8d8d8;
-    font-size: 0;
-    border: 0;
+	height: 3px;
+	width: 50px;
+	color: #d8d8d8;
+	background: #d8d8d8;
+	font-size: 0;
+	border: 0;
 }
 
 /* =Call to Action
@@ -362,8 +364,8 @@ hr {
 .portfolio { padding: 120px 0 120px 0; }
 
 #myPortfolio .item {
-  display: none;
-  opacity: 0;
+	display: none;
+	opacity: 0;
 }
 
 .nav-pills {
@@ -389,14 +391,14 @@ hr {
 }
 
 .nav-pills {
-    text-align: center;
+	text-align: center;
 }
 
 .nav-pills > li {
-    float: none;
-    display: inline-block;
-    padding: 0 15px 0 15px;
-   	cursor: pointer;
+	float: none;
+	display: inline-block;
+	padding: 0 15px 0 15px;
+	cursor: pointer;
 }
 
 .portfolio ul li {
@@ -432,10 +434,10 @@ span.portfolio-hover {
 }
 
 span.portfolio-hover:before {
-    content: ' ';
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
+	content: ' ';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
 }
 
 span.portfolio-hover span {
@@ -574,15 +576,15 @@ span.portfolio-hover span {
 
 .team-member-holder {
 	-webkit-transition: opacity 0.3s;
-    -moz-transition: opacity 0.3s;
-    -ms-transition: opacity 0.3s;
-    -o-transition: opacity 0.3s;
-    transition: opacity 0.3s;
-    display: inline-block;
+	-moz-transition: opacity 0.3s;
+	-ms-transition: opacity 0.3s;
+	-o-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	display: inline-block;
 }
 
 #content-holder:hover > .team-member-holder:not(:hover) {
-    opacity: 0.7;
+	opacity: 0.7;
 }
 
 #content-holder {
@@ -683,23 +685,23 @@ span.portfolio-hover span {
 }
 
 .services .nav > li.active > a .services-icon-holder {
-   background-color: #272727;
-   cursor: pointer;
+	background-color: #272727;
+	cursor: pointer;
 }
 
 .services .nav > li.active > a .services-icon {
-   color: #fff;
-   cursor: pointer;
+	color: #fff;
+	cursor: pointer;
 }
 
 .services .nav li.active:after {
-    content: "\f155";
-    font-family: Ionicons;
-    font-style: normal;
-    margin-top: 15px;
-    font-size: 28px;
-    font-weight: normal;
-    text-decoration: inherit;
+	content: "\f155";
+	font-family: Ionicons;
+	font-style: normal;
+	margin-top: 15px;
+	font-size: 28px;
+	font-weight: normal;
+	text-decoration: inherit;
 	display: inline-block;
 }
 
@@ -730,13 +732,13 @@ span.portfolio-hover span {
 }
 
 .fade {
-   opacity: 0;
-   -webkit-transition: opacity .65s linear;
-      -moz-transition: opacity .65s linear;
-       -ms-transition: opacity .65s linear;
-        -o-transition: opacity .65s linear;
-           transition: opacity .65s linear;
- }
+	opacity: 0;
+	-webkit-transition: opacity .65s linear;
+	-moz-transition: opacity .65s linear;
+	-ms-transition: opacity .65s linear;
+	-o-transition: opacity .65s linear;
+	transition: opacity .65s linear;
+}
 
 /* =Contact
 -------------------------------------------------------------- */
@@ -774,11 +776,11 @@ textarea.form-control {
 }
 
 .form-control:focus, .form-control:focus + span .btn{
-    border-color:#dadada;
-    box-shadow:none;
-    -webkit-box-shadow: none;
-    -webkit-appearance: none;
-    color: #272727;
+	border-color:#dadada;
+	box-shadow:none;
+	-webkit-box-shadow: none;
+	-webkit-appearance: none;
+	color: #272727;
 }
 
 .form-control-message {
@@ -845,37 +847,37 @@ textarea.form-control {
 
 /* Phones and down */
 @media (max-width: 480px) {
-    .summary { padding:70px 0 70px 0; }
-    .portfolio { padding:70px 0 0 0; }
-    span.portfolio-hover { display:none; }
-    .cta { padding:25px 0 25px 0 }
-    .cta p { font-size:18px; }
-    .about { padding:70px 0 70px 0 !important; }
-    .team { padding:70px 0 70px 0; }
-    .team .page-title { padding-bottom:25px; }
-    .services { padding:70px 0 70px 0; }
-    .services-icon-holder { width:60px; height:60px; margin-bottom:10px; }
-    .services-icon { font-size:26px; line-height:2.1 !important; padding-bottom: 7px; }
-    .services .tab-pane { padding-top:25px !important; }
-    .contact { padding: 70px 0 70px 0; }
-    .contact .page-title { padding-bottom: 15px; }
-    .contact-info-email { padding-bottom: 25px; }
-    .page-title-2 { padding-bottom: 0; }
+	.summary { padding:70px 0 70px 0; }
+	.portfolio { padding:70px 0 0 0; }
+	span.portfolio-hover { display:none; }
+	.cta { padding:25px 0 25px 0 }
+	.cta p { font-size:18px; }
+	.about { padding:70px 0 70px 0 !important; }
+	.team { padding:70px 0 70px 0; }
+	.team .page-title { padding-bottom:25px; }
+	.services { padding:70px 0 70px 0; }
+	.services-icon-holder { width:60px; height:60px; margin-bottom:10px; }
+	.services-icon { font-size:26px; line-height:2.1 !important; padding-bottom: 7px; }
+	.services .tab-pane { padding-top:25px !important; }
+	.contact { padding: 70px 0 70px 0; }
+	.contact .page-title { padding-bottom: 15px; }
+	.contact-info-email { padding-bottom: 25px; }
+	.page-title-2 { padding-bottom: 0; }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width:767px) {
 	.logo-icon-holder { width:30px; height:30px; }
-	.hero { background-size:cover; background-position:top center!important; }
+	.hero { background-size:cover; background-position:bottom right!important; }
 	.navbar { height:60px; }
 	.navbar-header { height:60px }
 	.navbar-nav li a { line-height:60px; }
 	.navbar ul.nav a { color: #686868; height: 35px; }
-    .navbar-collapse { height:250px !important; }
-    .navbar-toggle { background-color: transparent; border:0; padding:13px 0 0 0; border-radius:0; margin-top:0; }
-    .navbar-brand { margin-top: 1px;padding: 14px 15px; }
-    .logo-icon { font-size:21px; line-height: 1.40 !important; }
-    .toggle-icon { font-size:18px; line-height:2 !important; }
+	.navbar-collapse { height:250px !important; }
+	.navbar-toggle { background-color: transparent; border:0; padding:13px 0 0 0; border-radius:0; margin-top:0; }
+	.navbar-brand { margin-top: 1px;padding: 14px 15px; }
+	.logo-icon { font-size:21px; line-height: 1.40 !important; }
+	.toggle-icon { font-size:18px; line-height:2 !important; }
 	.navbar .nav li.active:after { display:none; }
 	.portfolio { padding-bottom:15px; }
 	.cta p { margin: 15px 0 15px 0; }
