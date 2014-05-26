@@ -264,9 +264,10 @@ ul.nav a:hover {
 .hero {
 	width: 100%;
 	color: #fff;
-	background-image: url(../img/slider/slide2-2.jpg);
+	background-image: url(../img/airbnb_bg.jpg);
 	background-repeat: no-repeat;
-	background-position: right 30px center;
+	background-position: bottom right;
+	background-size: cover;
 	margin: 0;
 	display: table;
 	height: 100%;
